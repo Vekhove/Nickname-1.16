@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'me.lilac.nickname'
+version '1.1.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+
+    maven { url = 'https://repo.rosewooddev.io/repository/public/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot:1.16.1'
+}
+
+jar {
+    baseName 'Nickname'
+}

@@ -1,0 +1,10 @@
+name: Nickname-1.16
+main: me.lilac.nickname.Nickname
+version: 1.0.0
+api-version: 1.16
+description: Nickname plugin for 1.16.
+author: Lilac
+commands:
+  nick:
+    aliases: [nickname]
+    description: Give yourself a nickname!
